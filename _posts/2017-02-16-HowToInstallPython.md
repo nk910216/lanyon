@@ -3,6 +3,15 @@ layout: post
 title: 如何在 mac 上面同時安裝 python2 和 python3
 ---
 
+<div class="message">
+要使用 python 2 還是 python 3 ?
+</div>
+在網路上尋找學習 python 的學習文件時，時常看到這樣的問題。因為現今仍有許多的東西是使用 python 2 來寫的，但新的 python 3 又提供許多方便的用法，那我們到底該使用哪一版呢？
+
+老實說，我只是一個剛要學習 python 的新手，這麼高深的問題我自然是回答不出來。目前是打算先學 python 3，但是舊的 python 2 程式碼也希望他能執行一些範例程式。因此，把兩個都裝進電腦裡應該是最保險的做法了。
+
+<!-- more -->
+
 # <strong>Reference
 
 Mac 在安裝上實在是非常便利又簡單，這次我參考的是下面這篇文章，寫得簡單又精美，非常感謝作者！
