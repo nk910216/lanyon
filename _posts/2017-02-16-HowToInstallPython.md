@@ -53,6 +53,7 @@ $ brew install python3
 # <strong>Adjust the Environment Path
 
 當我們打開 terminal 要使用某支程式的時候，如果只輸入程式名稱(不包含路徑)，系統怎麼知道我們把程式放在哪裡呢？像是上面的 `$ python --version` ，系統怎麼知道要去哪裡找 python 這支程式呢？
+ 
 答案是參考系統中的環境變數( Environment Path )中儲存的路徑名稱依序一個一個去搜尋，在該路徑下面第一個找到的程式就是我們的目標。
 
 首先我們先來看看我們的環境變數長成什麼樣子
@@ -65,8 +66,15 @@ $ /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 {% endhighlight %}
 
 其中冒號是分隔兩個路徑的意思。前面提到說系統會**依照順序**一個一個去找整個資料夾，直到跑完環境變數給的所有資料夾或是找到目標為止。
+ 
 因此，為了要讓系統優先叫用我們安裝在 homebrew 底下的 python，請將 `/usr/local/bin` 移到 `/usr/bin` 之前，前面的是我們資料夾會存放我們使用 homebrew 安裝的 python binary 檔。而後面的則是存放系統預設安裝的 binary 檔案。
-在我的例子中，原本的順序就挺不錯了，因此我就不需要去更改他。更改完之後請重新啟動 terminal，然後再次查看環境變數有沒有被正確地更改。
+ 
+環境變數存放的檔案位於`/etc/paths`，請用自己習慣的文字編輯器打開來編輯吧。我自己是用 vim 來做修改
+{% highlight shell %}
+$ vim /etc/paths
+{% endhighlight %}
+
+在我的例子中，原本的順序就挺不錯了，因此我就不需要去更改他。若是有修改的話，更改完之後請重新啟動 terminal，然後再次查看環境變數有沒有被正確地更改。
 
 # <strong>Finish
 
