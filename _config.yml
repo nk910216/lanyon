@@ -12,6 +12,10 @@ baseurl:             ''
 paginate:            5
 excerpt_separator:  '<!-- more -->'
 
+# Where are tags and categories displayed
+tag_page: '/Tags/'
+# category_page: '/blog/categories/'
+
 # About/contact
 author:
   name:              Mark Otto

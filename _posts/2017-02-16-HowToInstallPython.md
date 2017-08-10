@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 如何在 mac 上面同時安裝 python2 和 python3
+tags: [Python]
 ---
 
 <div class="message">

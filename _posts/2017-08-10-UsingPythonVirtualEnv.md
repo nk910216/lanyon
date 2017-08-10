@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Virtual Environment
+tags: [Python]
 ---
 
 > 這篇主要的目的是記錄如何將 python 開發環境保持簡單，乾淨與彈性。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用 Jekyll 建立自己的 Github Page Blog
+tags: [Blog]
 ---
 
 <div class="message">

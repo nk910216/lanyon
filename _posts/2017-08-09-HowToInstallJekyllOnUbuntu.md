@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在Ubuntu 14.04 上裝 Jekyll
+tags: [Blog]
 ---
 
 > 之前荒廢了一陣子，最近又想回來寫寫文章。這次想在自己的 Ubuntu 上也安裝 Jekyll, 這篇紀錄一下整個流程。
