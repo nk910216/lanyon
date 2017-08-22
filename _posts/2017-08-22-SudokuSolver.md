@@ -413,7 +413,7 @@ int main()
 最後看看結果。
 
 ~~~ bash
-$ gcc Sudoku.cpp
+$ g++ Sudoku.cpp
 $ ./a.out
 ~~~
 
